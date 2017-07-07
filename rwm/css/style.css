@@ -1,0 +1,170 @@
+body{
+  background-color: #FFF;
+}
+
+.player{
+  position: absolute;
+  background-color: #555;
+  width: 20px;
+  height: 60px;
+  top: 306px;
+  left: 50px;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.playerShield{
+  position: absolute;
+  background-color: #FFF;
+  opacity: 0.6;
+  width: 70px;
+  height: 70px;
+  top: 301px;
+  left: 25px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+}
+
+.playerAttackRadius{
+  position: absolute;
+  background-color: rgba(000,255,255,0);
+  width: 30px;
+  height: 100%;
+  top: 0;
+  left: 70px;
+  color: white;
+  text-align: center;
+}
+
+.bottomObstacle{
+  position: absolute;
+  background-color: rgba(0,0,0,0);
+  width: 20px;
+  height: 76px;
+  top: 296px;
+  right: -100px;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.pit{
+  position: absolute;
+  background-color: #0FF;
+  width: 100px;
+  height: 600px;
+  top: 366px;
+  right: -100px;
+  color: white;
+  text-align: center;
+}
+
+.bottomObstacleTwo{
+  position: absolute;
+  background-color: #555;
+  width: 20px;
+  height: 76px;
+  top: 296px;
+  right: -100px;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.topObstacle{
+  position: absolute;
+  background: linear-gradient(#444, #555);
+  background: -webkit-linear-gradient(#444, #555);
+  width: 20px;
+  height: 336px;
+  top: 0px;
+  right: -100px;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.projectile{
+  position: absolute;
+  background-color: #FFF;
+  width: 20px;
+  height: 20px;
+  top: 321px;
+  right: -100px;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.musicBar{
+  position: absolute;
+  background-color: rgba(255,255,255,0);
+  width: 2px;
+  height: 100%;
+  top: 0;
+  right: -100px;
+  text-align: center;
+}
+
+.ceiling{
+  position: absolute;
+  background-color: #444;
+  width: 1366px;
+  height: 10px;
+  top: 0;
+  left: 0px;
+  text-align: center;
+}
+
+.floor{
+  position: absolute;
+  background: linear-gradient(#555, #FFF);
+  background: -webkit-linear-gradient(#555, #FFF);
+  width: 1366px;
+  height: 600px;
+  top: 366px;
+  left: 0px;
+  text-align: center;
+}
+
+.counter{
+  position: absolute;
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  font-family: 'Economica', sans-serif;
+  width: 50px;
+  font-size: 200px;
+  height: 100px;
+  top: 400px;
+  right: 200px;
+}
+
+canvas {
+  margin:auto;
+}
+
+.simulation{
+  position: absolute;
+  border: none;
+  width: 170px;
+  height: 50px;
+  top: 124px;
+  background-color: #484848;
+  color: white;
+  font-size: 30px;
+  font-family: 'Economica', sans-serif;
+}
+
+.microphone{
+  position: absolute;
+  border: none;
+  width: 200px;
+  height: 50px;
+  top: 194px;
+  background-color: #484848;
+  color: white;
+  font-size: 30px;
+  font-family: 'Economica', sans-serif;
+}
